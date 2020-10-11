@@ -15,6 +15,7 @@ function setup() {
   animation = new Animation(loopAnimation);
   console.log("Animation created");
   animation.addImagesfromBasket(imgBasket);
+  animation.start();
 }
 
 function draw() {
